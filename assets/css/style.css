@@ -206,6 +206,14 @@ main {
     color: #3a3a3a
 }
 
+/* Media Query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
+
 /* Media Query: Devices 768px and up */
 @media screen and (min-width: 768px) {
 
